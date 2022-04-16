@@ -1,0 +1,341 @@
+body {
+    background-color: #228664;
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 150px;
+}
+
+.cabecaralho {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(225, 255, 255, 0.4);
+}
+
+.cabecaralho .container {
+    display: flex;
+    align-items: center;
+}
+.cabecaralho figure img {
+    width: 100%;
+    max-width: 140px;
+}
+
+.cabeçalhologo_picpro {
+    border-right: 1px solid #fff;
+    margin-right: 15px;
+}
+
+.secaodetalhesconta {
+    color: #fff;
+    padding: 60px 0 30px;
+}
+
+.secaodetalhesconta_usuario {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.secaodetalhesconta_usuario_nome,
+.secaodetalhesconta_usuario_icones {
+    display: flex;
+    align-items: center;
+}
+
+.secaodetalhesconta_usuario_icones img {
+    margin: 0 10px;
+}
+
+.secaodetalhesconta_usuario p {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.secaodetalhesconta_usuario img {
+    width: 100%;
+    max-width: 50px;
+}
+
+.secaodetalhesconta_usuario p strong {
+    display: block;
+    font-weight: bold;
+}
+
+
+.secaodetalhesconta_saldo {
+    border-top: 1px solid #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.secaodetalhesconta_saldo_valor {
+    display: flex;
+}
+
+.secaodetalhesconta_saldo p {
+    font-size: 18px;
+    line-height: 22px;
+}
+.secaodetalhesconta_saldo_valor p {
+    font-weight: 600;
+}
+.secaodetalhesconta_saldo_valor img {
+    display: block;
+    height: 18px;
+    width: 30px;
+    margin-left: 12px;
+}
+.secaodetalhesconta_saldo button {
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.secaodetalhesconta_opcoestransacao {
+    display: flex;
+    justify-content: space-between;
+}
+.secaodetalhesconta_opcoestransacao li {
+    background-color: #1f6f54;
+    width: 170px;
+    height: 177px;
+    border-radius: 20px;
+    padding: 40px 20px;
+    cursor: pointer;
+}
+.secaodetalhesconta_opcoestransacao li img {
+    width: 100%;
+    max-width: 40px;
+}
+
+.secaodetalhesconta_opcoestransacao li p {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 25px;
+    width: 80px;
+}
+
+.secaotransacao .container div{
+    display: none;
+}
+
+.secaotransacao .container div.mostrar {
+    display: block;
+}
+
+.secaotransacao {
+    background-color: #fff;
+    border-radius: 20px 20px 0;
+    border-bottom: 15px solid #f0f0f0;
+    padding: 30px 0;
+    min-height: 450px;
+}
+
+.secaotransacao_aviso p {
+    font-size: 25px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    padding: 30px 60px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.secaotransacao_aviso img {
+    margin: 30px 0 90px;
+    width: 100%
+}
+
+.secaotransacao_qrcode {
+    text-align: center;
+}
+
+.secaotransacao_qrcode img {
+    max-width: 180px;
+}
+.secaotransacao_qrcode p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.secaotransacao_qrcode button {
+    background-color: #4a8864;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 50px 0 20px;
+    padding: 15px 150px;
+    cursor: pointer;
+}
+
+.secaotransacao_qrcode a {
+    display: block;
+    align-items: center;
+}
+
+.secaotransacao_pix img {
+    width: 100%;
+    max-width: 150px;
+}
+.secaotransacao_box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d2d2d2;
+    max-width: 500px;
+    padding: 14px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px 0;
+}
+.secaotransacao_box img{
+    width: 100%;
+    max-width: 80px;
+    margin-right: 10px;
+}
+
+.secaotransacao_box p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.secaotransacao_boleto img {
+    width: 100%;
+    max-width: 80px;
+}
+.secaotransacao_boleto h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.secaotransacao_boleto p {
+    font-size: 18px;
+    max-width: 500px;
+    margin: 20px 0;
+}
+.secaotransacao_boleto input {
+    width: 100%;
+    background-color: #f4f4f4;
+    font-size: 16px;
+    height: 50px;
+    padding: 0 80px;
+    border-radius: 10px;
+    border: 1px solid #d2d2d2;
+    color: #000;
+    box-sizing: border-box;
+}
+
+.secaotransacao_cobrar img{
+    width: 100%;
+    max-width: 80px;
+}
+
+.secaotransacao_cobrar h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.secaotransacao_cobrar p{
+    font-size: 18px;
+    max-width: 500px;
+    margin: 20px 0;   
+}
+
+.secaotransacao_cobrar .secaotransacao_box p {
+    margin-left: 10px;
+}
+
+.rodape {
+    background-color: #fff;
+}
+
+.rodape_principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rodape_principal li {
+    text-align: center;
+}
+.rodape_principal li a {
+    color: #000;
+    text-decoration: none;
+}
+.rodape_principal li a img {
+    width: 100%;
+    max-width: 40px;
+}
+.rodape_principal li a p {
+    margin-top: 20px;
+}
+
+.rodape_menuitem-pagar{
+    transform: translateY(-35px);
+}
+
+.rodape_principal .rodape_menuitem-pagar a img {
+    max-width: 80px;
+}
+
+/*hover */
+.secaodetalhesconta_itemtransacao:hover {
+    background-color: #fff;
+    color: #228664;
+}
+
+.secaodetalhesconta_itemtransacao figure {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.secaodetalhesconta_itemtransacao_qrcode figure {
+    background-image: url("../img/qrcode.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+.secaodetalhesconta_itemtransacao_pix figure {
+    background-image: url("../img/pix.png");
+}
+.secaodetalhesconta_itemtransacao_codigo figure {
+    background-image: url("../img/codigo.png");
+    width: 100%;
+    max-width: 65px;
+}
+.secaodetalhesconta_itemtransacao_cobrar figure {
+    background-image: url("../img/cobrar-icon.png");
+    width: 100%;
+    max-width: 60px;
+}
+
+/* EFEITO HOVERS */
+.secaodetalhesconta_itemtransacao_qrcode:hover figure {
+background-image: url("../img/qrcode-verde.png");
+}
+.secaodetalhesconta_itemtransacao_pix:hover figure {
+background-image: url("../img/pix-verde.png");
+}
+.secaodetalhesconta_itemtransacao_codigo:hover figure {
+background-image: url("../img/boleto-verde.png");
+}
+.secaodetalhesconta_itemtransacao_cobrar:hover figure {
+background-image: url("../img/cobrar-verde.png");
+}
+
+.secaodetalhesconta_itemtransacao figure img {
+width: 100%;
+max-width: 25px;
+height: 20px;
+opacity: 0;
+}
